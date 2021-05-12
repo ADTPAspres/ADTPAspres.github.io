@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-ol.proj.get("IGNF:LAMB93").setExtent([667744.975000, 6155107.623934, 693870.025000, 6175431.376066]);
+ol.proj.get("IGNF:LAMB93").setExtent([666898.549117, 6155663.575000, 694716.450883, 6174875.425000]);
 var wms_layers = [];
 
 
@@ -50,7 +50,7 @@ lyr_Emplacementcolonnesverre_2.set('fieldAliases', {'Nom du rep': 'Nom du rep', 
 lyr_CCaspres_1.set('fieldImages', {'ID_GEOFLA': 'TextEdit', 'CODE_COMM': 'TextEdit', 'INSEE_COM': 'TextEdit', 'NOM_COMM': 'TextEdit', 'STATUT': 'TextEdit', 'X_CHF_LIEU': 'Range', 'Y_CHF_LIEU': 'Range', 'X_CENTROID': 'Range', 'Y_CENTROID': 'Range', 'Z_MOYEN': 'Range', 'SUPERFICIE': 'TextEdit', 'POPULATION': 'TextEdit', 'CODE_CANT': 'TextEdit', 'CODE_ARR': 'TextEdit', 'CODE_DEPT': 'TextEdit', 'NOM_DEPT': 'TextEdit', 'CODE_REG': 'TextEdit', 'NOM_REGION': 'TextEdit', });
 lyr_Emplacementcolonnesverre_2.set('fieldImages', {'Nom du rep': 'TextEdit', 'Latitude': 'TextEdit', 'Longitude': 'TextEdit', });
 lyr_CCaspres_1.set('fieldLabels', {'ID_GEOFLA': 'no label', 'CODE_COMM': 'no label', 'INSEE_COM': 'no label', 'NOM_COMM': 'no label', 'STATUT': 'no label', 'X_CHF_LIEU': 'no label', 'Y_CHF_LIEU': 'no label', 'X_CENTROID': 'no label', 'Y_CENTROID': 'no label', 'Z_MOYEN': 'no label', 'SUPERFICIE': 'no label', 'POPULATION': 'no label', 'CODE_CANT': 'no label', 'CODE_ARR': 'no label', 'CODE_DEPT': 'no label', 'NOM_DEPT': 'no label', 'CODE_REG': 'no label', 'NOM_REGION': 'no label', });
-lyr_Emplacementcolonnesverre_2.set('fieldLabels', {'Nom du rep': 'no label', 'Latitude': 'no label', 'Longitude': 'no label', });
+lyr_Emplacementcolonnesverre_2.set('fieldLabels', {'Nom du rep': 'header label', 'Latitude': 'no label', 'Longitude': 'no label', });
 lyr_Emplacementcolonnesverre_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
